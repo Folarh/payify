@@ -1,0 +1,15 @@
+.main{
+      min-height: 400px;
+     padding: 8rem 1.5rem;
+     text-align: center;
+     font-size: 2.0rem;
+     background-color: whitesmoke;
+}
+
+.download{
+    padding: 20px;
+}
+
+.download h3{
+    margin-bottom: 30px;
+}
