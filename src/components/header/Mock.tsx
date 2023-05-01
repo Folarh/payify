@@ -4,9 +4,9 @@ import third from "../../assets/third.webp"
 const Mock = () => {
   return (
     <main className="mock">
-        <img src={first} />
+        <img src={first} className="none" />
         <img src={second} className="special"/>
-        <img src={third}/>
+        <img src={third} className="none"/>
     </main>
   )
 }

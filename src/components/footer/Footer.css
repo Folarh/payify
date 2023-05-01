@@ -1,6 +1,8 @@
 .footer-container {
     padding: 20px;
-    background-color: whitesmoke;
+    background: linear-gradient(137.44deg,#432344 33.66%,#8e3791 84.4%); 
+    color: #e7eefb;
+    font-weight: 900;
   }
   
   .footer {
@@ -13,7 +15,7 @@
   
   .footer-one .footer-one-logo {
     margin-bottom: 20px;
-    color: #006be9;
+    color: #ffc03d;
   }
  
   
@@ -24,7 +26,7 @@
   
   .footer-two .footer-two-link li {
     margin-bottom: 20px;
-    color: #1c1c1c;
+     color: #e7eefb;
   }
   
   .footer-three h5 {
@@ -53,8 +55,8 @@
     width: 30%;
     padding: 14px;
     font-weight: 700;
-    color: #fff;
-    background-color:  #006be9;
+    color: #ff2525;
+    background-color:  #ffc03d;
     border: none;
     outline: none;
     border-radius: 2px;
@@ -66,13 +68,13 @@
   }
   
   .footer-three-media i:hover {
-    color: var(--color);
+    color:  #ff2525;
   }
   
   .footer-end {
     font-size: 16px;
     font-family: "Cairo", sans-serif;
-    color: #6f6f6f;
+    color:  #ff2525;
     font-weight: 400;
     line-height: 26px;
     margin: 5px 0 10px 0;

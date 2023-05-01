@@ -14,7 +14,7 @@ export default function Info() {
         </div>
         <div className="info-text">
             <h2>Transact with ease</h2>
-            <p>with myPally, Send and Receive Fund through PayPal from your loved ones abroad and more in one space</p>
+            <p>with payify, Send and Receive Fund through PayPal from your loved ones abroad and more in one space</p>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ export default function Info() {
        <div className="info-first">
        <div className="info-text">
             <h2>Spread Love with your Pally</h2>
-            <p>Send money through PayPal to your pally in Nigeria with myPally.</p>
+            <p>Send money through PayPal to your pally in Nigeria with payify.</p>
         </div>
         <div className="info-images">
             <img src={Second}/>
@@ -37,7 +37,7 @@ export default function Info() {
         </div>
         <div className="info-text">
             <h2>Withdraw and fund your wallet with ease, all in naira</h2>
-            <p>with myPally, Send and Receive Fund through PayPal from your loved ones abroad and more in one space</p>
+            <p>with payify, Send and Receive Fund through Payify from your loved ones abroad and more in one space</p>
         </div>
       </div>
 
