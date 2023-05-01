@@ -1,5 +1,5 @@
 
-import Google from '../../assets/Google.png'
+import Google from '../../assets/google.png'
 import Appstore from '../../assets/appstore.png'
 import Logo from '../../assets/opt.png'
 import {useState} from "react"
