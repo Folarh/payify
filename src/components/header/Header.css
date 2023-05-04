@@ -15,7 +15,7 @@
     font-family: Inter,sans-serif;
     background-color: #e7eefb;
     min-height: 80px;
-    color: #ff2525;
+    color: rgb(27, 24, 24);
     top: 0;
     position: sticky;
     z-index: 100;
@@ -34,13 +34,16 @@
 }
 
 .navbar .navigations a{
+    color: #ffa500;
    font-weight: 800;
+   text-decoration: overline;
 }
 
 .navbar .navigations a:hover{
-    transition: all .4s ease;
+    transition: all .7s ease;
     cursor: pointer;
-    color: black;
+    color: #8e3791;
+  
 }
 
 .logo{
@@ -58,6 +61,32 @@ width: 40%;
 
 .menu-icon{
     display: none;
+}
+
+.facebook-icon{
+    color: steelblue;
+}
+
+.facebook-icon:hover{
+    color: rgb(23, 91, 146);
+}
+
+.twitter-icon{
+    color: rgb(120, 172, 233);
+}
+.twitter-icon:hover{
+    color: rgb(41, 108, 185);
+}
+.github-icon{
+    color: black;
+}
+
+.github-icon:hover{
+    color: rgb(102, 62, 62);
+}
+
+.close-icon, .open-icon{
+    color: black;
 }
 @media all and (width <= 768px) {
    .navigations a{

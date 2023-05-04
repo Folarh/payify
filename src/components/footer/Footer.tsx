@@ -1,6 +1,10 @@
 
 
 // import { Link } from "react-router-dom";
+//materia-ui-icons
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 //*style
 import "./Footer.css";
@@ -51,9 +55,10 @@ const Footer = () => {
           </div>
 
           <div className="footer-three-media">
-            <i className="bi bi-facebook"></i>
-            <i className="bi bi-instagram"></i>
-            <i className="bi bi-twitter"></i>
+          <FacebookIcon className="facebook-icon"/>
+      < TwitterIcon className="twitter-icon"/>
+      <GitHubIcon className="twitter-icon"/>
+    
           </div>
         </div>
       </div>

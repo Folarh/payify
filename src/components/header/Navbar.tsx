@@ -1,18 +1,31 @@
 
-import Google from '../../assets/google.png'
-import Appstore from '../../assets/appstore.png'
 import Logo from '../../assets/opt.png'
 import {useState} from "react"
 
+// router-links
+import { Link } from 'react-router-dom';
+
+//materia-ui-icons
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
+
 
 const Navbar = () => {
-  const [toggle, setToggle]= useState(false)
+  const [toggle, setToggle]= useState<boolean>(false)
   return (
     <nav className='navbar'> 
      <div className="navigations" id='{toggle? "hidden": ""}'>
-      <a >Home</a>
-      <a >Contact</a>
-      <a >FAQ</a>
+      <Link to="/">Home
+      </Link>
+      <Link to="/about">About
+      </Link>
+      <Link to="/faq">FAQ
+      </Link>
+    
+     
      </div>
 
      <div className="logo">
@@ -20,11 +33,12 @@ const Navbar = () => {
      </div>
 
      <div className="app-download">
-      <img src={Google}/>
-      <img src={Appstore}/>
+      <FacebookIcon className="facebook-icon"/>
+      < TwitterIcon className="twitter-icon"/>
+      <GitHubIcon className="github-icon"/>
      </div>
      <div className='menu-icon' onClick={()=>setToggle(!toggle)}>
-{toggle? "X": "#"}
+{toggle? <CloseIcon className="close-icon" />: <MenuIcon className="open-icon"/>}
      </div>
      </nav>
   )

@@ -1,0 +1,163 @@
+.about-head{
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    font-family: Work Sans,sans-serif;
+    min-height: 600px;
+    padding-top: 30px;
+    background: linear-gradient(137.44deg,#432344 33.66%,#8e3791 84.4%); 
+    color: whitesmoke;
+   
+   
+}
+
+.about-head h2{
+    color: #e7eefb;
+}
+
+.users{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   gap: 1rem;
+    min-width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.user-info h3{
+    color: black;
+    
+}
+
+.user-info p{
+    color: #ffa500;
+}
+
+
+/* GLOBAL INVESTORS */
+
+.global{
+    padding: 40px;
+ 
+    background-color: aliceblue;
+}
+
+.global h1{
+   text-align: center;
+   font-size: 3rem;
+   color: #161010;
+}
+
+
+
+
+.investors .investors-grid{
+   padding-left: 30px;
+   padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.global .investors img{
+    height: 40px;
+    width: 120px;
+   
+}
+
+.card{
+    background-color: rgb(214, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    min-height: 150px;
+    margin-top: 2rem;
+}
+
+/* EXPERIENCE INVESTORS */
+
+.experience{
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 2rem;
+    margin: 2rem;
+}
+
+.experience-left{
+    width: 50%;
+}
+
+.experience-left h3,h1,p{
+   margin-bottom: 2rem;
+   font-size: 1.5rem;
+}
+
+.experience-right{
+    width: 50%;
+}
+/* .btn{
+    margin-top: 2rem;
+} */
+
+.btn button{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.contact{
+   border: 1px solid grey;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-btn{
+    border: none;
+   
+}
+@media all and (width <= 768px) {
+    .experience{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2rem;
+        
+    }
+
+    .experience-left h3,h1,p{
+       
+        font-size: 1rem;
+    
+     }
+
+     .btn{
+        margin-top: 2rem;
+     }
+  }
